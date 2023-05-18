@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 20px auto;
+	width: 80%;
+	max-width: 600px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+textarea, select {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	display: block;
+	margin: 10px auto;
+}
+
+#result {
+	margin: 20px auto;
+	width: 80%;
+	max-width: 600px;
+}
+

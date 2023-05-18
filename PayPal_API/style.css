@@ -1,0 +1,63 @@
+body{
+    height: 60vh;
+    background-image: url("Paypal.png");
+}
+
+body img{
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    left: 0%;
+    bottom: 15%;
+}
+form {
+    position: relative;
+    top: 30%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the PayPal button container */
+#paypal-button-container {
+    position: relative;
+    top: 30%;
+  margin-top: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PayPal Integration Example</title>
+  </head>
+  <body>
+    <img src="Paypal.png" alt="PayPal">
+    <h1>PayPal Integration Demo</h1>
+    <form id="payment-form">
+      <div>
+        <label for="amount">Amount:</label>
+        <input
+          type="text"
+          id="amount"
+          name="amount"
+          placeholder="Enter Amount"
+        />
+      </div>
+      <div>
+        <label for="currency">Currency:</label>
+        <select id="currency" name="currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+        </select>
+      </div>
+      <div>
+        <label for="description">Description:</label>
+        <input
+          type="text"
+          id="description"
+          name="description"
+          placeholder="Enter Description"
+        />
+      </div>
+      <button id="submit-button">Pay with PayPal</button>
+    </form>
+
+    <div id="paypal-button-container"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR CLIENT ID"></script>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

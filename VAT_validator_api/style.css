@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+input[type="text"] {
+  width: 400px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#validation-result {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

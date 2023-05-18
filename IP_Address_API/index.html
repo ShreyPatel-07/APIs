@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Validation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>IP Geolocation</h1>
+      <form>
+        <label for="ip">Enter IP address:</label>
+        <input type="text" id="ip" name="ip" placeholder="Enter IP address...">
+        <button type="button" onclick="getGeolocation()">Get Geolocation</button>
+      </form>
+      <table id="geolocation">
+        <tr>
+          <th>City</th>
+          <td id="city"></td>
+        </tr>
+        <tr>
+          <th>Region</th>
+          <td id="region"></td>
+        </tr>
+        <tr>
+          <th>Country</th>
+          <td id="country"></td>
+        </tr>
+        <tr>
+          <th>Latitude</th>
+          <td id="latitude"></td>
+        </tr>
+        <tr>
+          <th>Longitude</th>
+          <td id="longitude"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
